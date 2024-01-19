@@ -5,9 +5,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
 
 @media screen and (min-width: 320px) and (max-width: 768px) {
-    section.imagem p{
-        padding: 0px 50px;
+    section.imagem {
+        padding: 0px;
+       
     }
+
+    section#img001{
+        padding: 20px 0px;
+    }
+
+    section#img002 {
+         padding: 20px 0px;
+         background-position: top;
+    }
+
 }
 
 :root{
@@ -117,7 +128,6 @@ section.imagem{
 section.imagem p{
     background-color: rgba(128, 128, 128, 0.572);
     margin: 50px 0px;
-    display: inline-block;
    
 
 }
