@@ -111,6 +111,7 @@ section.imagem{
 section.imagem p{
     background-color: rgba(128, 128, 128, 0.572);
     margin: 50px 0px;
+    display: inline-block;
    
 
 }
