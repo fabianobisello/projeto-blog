@@ -4,6 +4,12 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
 
+@media screen and (min-width: 320px) and (max-width: 768px) {
+    section.imagem p{
+        padding: 0px 50px;
+    }
+}
+
 :root{
     --cor0: #C1D9D4;
     --cor1: #8C8665;
