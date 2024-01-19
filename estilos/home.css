@@ -1,5 +1,7 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
 :root{
     --cor0: #C1D9D4;
     --cor1: #8C8665;
@@ -22,11 +24,6 @@ body{
 h1{
     font-weight: bold;
  
-}
-
-img{
-    width: 100%;
-
 }
 
 header{
@@ -67,68 +64,37 @@ nav a:hover{
     border-radius: 7px;
 }
 
-main{
+article{
     background-color: white;
-    min-width: 280px;
-    max-width: 1000px;
-    padding: 20px;
     margin: auto;
-    margin-bottom: 0px;
-    box-shadow: 0px 8px 18px rgba(4, 4, 4, 0.446);
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-
-}
-
-main h1{
-    color: var(--cor4);
-}
-
-main p{
-    margin: 15px 0px;
-    text-align: justify;
-    text-indent: 30px;
-    line-height: 2em;
-    font-size: 1.1em;
-}
-
-aside{
-    background-color: var(--cor2);
-    border-radius: 10px;
-}
-
-
-aside h1{
-    background-image: linear-gradient(var(--cor2), var(--cor3));
-    padding: 5px;
     min-width: 280px;
-    max-width: 1000px;
-    color: rgb(252, 250, 230);
-    border-top-right-radius: 10px;
-    border-top-left-radius: 10px;
+    max-width: 1040px;
+    
 }
 
-aside p{
-    padding: 0px 15px;
-}
-
-aside ul{
-    line-height: 2em;
-    text-indent: 30px;
-    list-style-position: inside;
+article h1{
     padding: 10px;
 }
 
-footer{
-    background-image: linear-gradient(var(--cor2), var(--cor3));
-    padding: 10px 20px;
-    text-align: center;
-    color: rgb(252, 250, 230);
-    margin-top: 20px;
+article h1 a{
+    text-decoration: none;
+    color: var(--cor2);    
 }
 
-footer a{
-    color: rgb(252, 250, 230);
-    text-decoration: none;
-    font-weight: bold;
+article h1 a:hover{
+    color: #59231E;
+    font-size: 1.1em;
+    transition-duration: 0.3s;
+}
+
+article h2{
+    padding: 10px;
+    font-size: medium;
+}
+
+article p{
+    text-align: center;
+    margin-top: -25px;
+    padding-bottom: 10px;
+    font-family: 'Satisfy', cursive;
 }

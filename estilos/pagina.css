@@ -1,0 +1,145 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+
+:root{
+    --cor0: #C1D9D4;
+    --cor1: #8C8665;
+    --cor2: #BF8450;
+    --cor3: #8C452B;
+    --cor4: #59231E;
+    --cor5: rgb(65, 47, 36);
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: var(--cor0);
+}
+
+h1{
+    font-weight: bold;
+ 
+}
+
+img{
+    width: 100%;
+
+}
+
+header{
+    text-align: center;
+    background-image: linear-gradient(var(--cor2), var(--cor4));
+    min-height: 150px;
+    text-align: center;
+    padding-top: 40px;
+    color: rgb(252, 250, 230);
+
+}
+
+
+header p{
+    padding: 20px;
+    font-size: 1.2em;
+}
+
+nav{
+    padding: 10px 20px;
+    background-image: linear-gradient(var(--cor2), var(--cor3));
+    box-shadow: 1px 8px 18px rgba(4, 4, 4, 0.446);
+    min-width: 280px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+nav a{
+    color: rgb(252, 250, 230);
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+}
+
+nav a:hover{
+    color: rgba(136, 146, 98, 0.486);
+    background-color: var(--cor3);
+    border-radius: 7px;
+}
+
+main{
+    background-color: white;
+    min-width: 280px;
+    max-width: 1000px;
+    padding: 20px;
+    margin: auto;
+    margin-bottom: 0px;
+    box-shadow: 0px 8px 18px rgba(4, 4, 4, 0.446);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+}
+
+main h1{
+    color: var(--cor2);
+}
+
+main p{
+    margin: 15px 0px;
+    text-align: center ; 
+    line-height: 2em;
+    font-size: 1.1em;
+}
+
+section p{
+    font-family: 'Sriracha', 'cursive';
+}
+
+section.imagem{
+    background-color: rgba(255, 255, 255, 0.887);
+    color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.542);
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 20px 100px;
+}
+
+section.imagem p{
+    background-color: rgba(128, 128, 128, 0.572);
+    margin: 50px 0px;
+   
+
+}
+
+section#img001{
+    background-image: url(../imagens/pexels-pixabay-208216.jpg);
+    background-position: center center;
+}
+
+section#img002{
+    background-image: url(../imagens/pexels-athena-6580703.jpg);
+    background-position: center center;
+}
+
+aside{
+    background-color: var(--cor2);
+    border-radius: 10px;
+}
+
+footer{
+    background-image: linear-gradient(var(--cor2), var(--cor3));
+    padding: 10px 20px;
+    text-align: center;
+    color: rgb(252, 250, 230);
+    margin-top: 20px;
+}
+
+footer a{
+    color: rgb(252, 250, 230);
+    text-decoration: none;
+    font-weight: bold;
+}
